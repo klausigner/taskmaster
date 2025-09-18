@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    width: clamp(348px, 8vw, 648px);
+    width: 548px;
     padding: 24px;
     border: 1px solid #DBDBDB;
     border-radius: 8px;
@@ -171,4 +171,10 @@ p {
 .marked {
     text-decoration: line-through;
     color: #BEBEBE;
+}
+
+@media (max-width: 600px){
+    .container {
+        width: 348px;
+    }
 }
